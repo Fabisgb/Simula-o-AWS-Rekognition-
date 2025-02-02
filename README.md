@@ -34,4 +34,4 @@ Este projeto tem como objetivo simular o uso do AWS Rekognition para a identific
 
 ## Prints e Demonstrações
 
-![Tela 1](https://github.com/Fabisgb/Simulacao-AWS-Rekognition/blob/main/imagens/demo.jpg)
+![Tela 1](https://github.com/Fabisgb/Simula-o-AWS-Rekognition-/blob/01a9143a80c4c50a0ada1f6b1cfe71824ddb8b32/imagens/img9.jpg)
