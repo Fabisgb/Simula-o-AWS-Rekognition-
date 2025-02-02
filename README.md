@@ -19,12 +19,12 @@ Este projeto tem como objetivo simular o uso do AWS Rekognition para a identific
 
 2. Navegue até a pasta do projeto:
    ```bash
-   cd simulacao-aws-rekognition
+   cd AWSRekognition.py
    ```
 
 3. Execute o script:
    ```bash
-   python simulate_aws_rekognition.py
+   python AWSRekognition.py
    ```
 
 ## Possíveis Melhorias e Insights
