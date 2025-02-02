@@ -1,32 +1,37 @@
-# Projeto Simulação do AWS Textract
+# Projeto Simulação do AWS Rekognition
 
 ## Objetivo
-Este projeto tem como objetivo simular o uso do AWS Textract para a extração de informações de documentos (imagens ou PDFs), demonstrando o fluxo de trabalho e a estrutura de um projeto que utiliza essa tecnologia. A simulação é útil para entender como o Textract pode ser integrado a uma aplicação, mesmo sem precisar realizar chamadas reais ao serviço (ideal para testes e demonstrações).
+Este projeto tem como objetivo simular o uso do AWS Rekognition para a identificação automática de celebridades em imagens. A simulação demonstra o fluxo de trabalho e a estrutura de um projeto que utiliza essa tecnologia, sem a necessidade de chamadas reais ao serviço (ideal para testes e demonstrações).
 
 ## Funcionalidades
-- **Simulação do Processamento**: Simula o tempo de processamento e retorna uma resposta fictícia similar à resposta do AWS Textract.
-- **Exemplo de Saída**: Demonstra a estrutura de dados retornada pelo Textract, com blocos de texto e informações de metadados.
+- **Simulação do Processamento**: Simula o reconhecimento de celebridades em uma imagem e retorna uma resposta fictícia semelhante à do AWS Rekognition.
+- **Exemplo de Saída**: Demonstra a estrutura de dados retornada pelo Rekognition, incluindo o nome da celebridade detectada e um nível de confiança associado.
 
 ## Explicação do Código:
-- **simulate_textract_processing()**: Função que simula o processamento do documento. Ela espera um caminho para um documento, simula um delay (como se estivesse processando) e retorna um dicionário que imita a resposta do AWS Textract.
-- **main()**: Função principal que define o caminho do documento, chama a função de simulação e imprime o resultado formatado.
+- **simulate_celebrity_recognition()**: Função que simula o reconhecimento de celebridades em uma imagem. Ela escolhe aleatoriamente uma celebridade fictícia de uma lista e atribui um nível de confiança.
+- **Execução do Script**: O código pode ser executado fornecendo o caminho de uma imagem para a função, que então retorna um dicionário imitando a resposta do AWS Rekognition.
 
 ## Como Executar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Fabisgb/Simula-o-AWS-Rekognition-.git
+   git clone https://github.com/Fabisgb/Simulacao-AWS-Rekognition-.git
+   ```
 
 2. Navegue até a pasta do projeto:
-   cd meu-projeto-textract/src
+   ```bash
+   cd simulacao-aws-rekognition
+   ```
 
 3. Execute o script:
-   python simulate_textract.py
+   ```bash
+   python simulate_aws_rekognition.py
+   ```
 
 ## Possíveis Melhorias e Insights
-- **Integração Real com AWS Textract**: Após a simulação, é possível integrar o boto3 para chamar o serviço real do Textract, utilizando o nível gratuito da AWS ( 😂 este não é o meu caso, só pago).
-- **Análise de Dados Extraídos**: Implementar uma camada de análise dos dados retornados, como processamento de informações extraídas e integração com outras ferramentas.
-- **Interface Web**: Criar uma interface para upload de documentos e visualização dos resultados, tornando a aplicação mais interativa.
+- **Integração Real com AWS Rekognition**: Após a simulação, é possível integrar o boto3 para chamar o serviço real do Rekognition, utilizando o nível gratuito da AWS (😂 este não é o meu caso, só pago).
+- **Expansão da Base de Dados**: Aumentar a lista de celebridades simuladas para tornar os resultados mais variados.
+- **Interface Web**: Criar uma interface para upload de imagens e exibição dos resultados, tornando a aplicação mais interativa.
 
 ## Prints e Demonstrações
 
-![Tela 1](https://github.com/Fabisgb/Simula-o-AWS-Rekognition-/blob/5b9666185c9ede6c22e601b9baf23caaaa7de1cb/imagens/img9.jpg)
+![Tela 1](https://github.com/Fabisgb/Simulacao-AWS-Rekognition/blob/main/imagens/demo.jpg)
