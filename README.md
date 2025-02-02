@@ -29,4 +29,4 @@ Este projeto tem como objetivo simular o uso do AWS Textract para a extração d
 
 ## Prints e Demonstrações
 
-![Tela 1](https://github.com/Fabisgb/meu-projeto-textract/blob/b9e0b5da7b644913303ccd76eb59d8b78e4e812f/Imagens/Documento%2017_page-00011.JPG)
+![Tela 1](https://github.com/Fabisgb/Simula-o-AWS-Rekognition-/blob/5b9666185c9ede6c22e601b9baf23caaaa7de1cb/imagens/img9.jpg)
