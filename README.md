@@ -1,0 +1,1 @@
+# Simula-o-AWS-Rekognition-
